@@ -7,13 +7,12 @@ btn.addEventListener('click', changeColor);
 function changeColor(){
     var currentColor = getRandomNumber()
 
-    document.body.style.backgroundColor = colors[currentColor]
-    color.textContent = colors[currentColor]
+    document.body.style.backgroundColor = colors[currentColor];
+    color.style.color = colors[currentColor];
+    color.textContent = colors[currentColor];
 }
 
 function getRandomNumber(){
     let chosenColor = '';
     return chosenColor = Math.floor(Math.random() * colors.length);
 }
-
- 

@@ -57,7 +57,17 @@ body{
 
 .container .btn{
     background-size: contain;
+    padding: 5px;
     cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.664);
     border-radius: 5px;
+    background-color: transparent;
+    transition: all .2s;
+}
+
+.container .btn:hover{
+    border: 1px solid white;
+    background-color: black;
+    color: white;
 }
 
